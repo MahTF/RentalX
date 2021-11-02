@@ -6,6 +6,7 @@ import swaggerConfigs from "./swagger.json";
 import "./database";
 
 const app = express();
+const port = 3333;
 
 app.use(express.json());
 
@@ -13,4 +14,5 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerConfigs));
 
 app.use("/", router);
 
-app.listen(3333);
+app.listen(port);
+console.log(`Server running on port: ${port}`);
