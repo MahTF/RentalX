@@ -106,6 +106,7 @@ Este projeto é sobre uma locadora de veículos, realizado em NodeJs e Docker.
 - [Swagger](https://swagger.io)
 - [TSyringe](https://www.npmjs.com/package/tsyringe)
 - [TypeOrm](https://typeorm.io/#/)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 
 
 ### A quick look at the top-level directories inside the `./src`.
