@@ -107,6 +107,7 @@ Este projeto é sobre uma locadora de veículos, realizado em NodeJs e Docker.
 - [TSyringe](https://www.npmjs.com/package/tsyringe)
 - [TypeOrm](https://typeorm.io/#/)
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 
 ### A quick look at the top-level directories inside the `./src`.
