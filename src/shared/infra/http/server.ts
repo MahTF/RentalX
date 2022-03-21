@@ -5,9 +5,9 @@ import "reflect-metadata";
 
 import "../../container";
 import "../../typeorm";
-import { router } from "../../../routes";
 import swaggerConfigs from "../../../swagger.json";
 import { AppError } from "../../errors/AppError";
+import { router } from "./routes";
 
 const app = express();
 const port = 3333;
