@@ -4,9 +4,9 @@ import "express-async-errors";
 import "reflect-metadata";
 
 import "../../container";
-import "../../typeorm";
 import swaggerConfigs from "../../../swagger.json";
 import { AppError } from "../../errors/AppError";
+import createConnection from "../typeorm";
 import { router } from "./routes";
 
 const app = express();
