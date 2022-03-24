@@ -3,10 +3,10 @@ import swaggerUi from "swagger-ui-express";
 import "express-async-errors";
 import "reflect-metadata";
 
+import "../typeorm";
 import "../../container";
 import swaggerConfigs from "../../../swagger.json";
 import { AppError } from "../../errors/AppError";
-import createConnection from "../typeorm";
 import { router } from "./routes";
 
 const app = express();
